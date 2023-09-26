@@ -1,3 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+#logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
