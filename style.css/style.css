@@ -61,7 +61,7 @@ h1{
 }
 
 main{
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 30px;
 }
 
@@ -72,6 +72,7 @@ ul{
 .task-title {
     font-weight: bold;
     font-size: 25px;
+    margin-top: 50px;
 }
 
 .task-title::before {
@@ -80,7 +81,8 @@ ul{
     }
 
 .did{
-    margin-top: 10px;
+    margin-top: 25px;
+    font-size: 17px;
 }
 
 .did::before{
@@ -94,3 +96,92 @@ ul{
     text-align: center;
     border-radius: 50%;
 }
+
+.did-not{
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.did-not::before{
+    content: '\2715';
+    margin-right: 10px;
+    border: 1px solid rgb(203, 39, 39);
+    color: rgb(203, 39, 39);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#editorial-1::after,#editorial-2::after,#editorial-3::after {
+  content: "Editorial";
+  background-color: #3498db;
+  border-radius: 10px;
+  font-size: 10px;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#goals::after{
+  content: "Q1 Goals";
+  background-color: #9235de;
+  border-radius: 10px;
+  font-size: 10px;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#recruiting::after{
+    content: "Recruiting";
+    background-color: #25bd8d;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  #mobile::after{
+    content: "Mobile";
+    background-color: #f7920e;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  #website::after{
+    content: "Website";
+    background-color: #e80ef7;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  #sales::after{
+    content: "Sales";
+    background-color: #97c435;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+  }
