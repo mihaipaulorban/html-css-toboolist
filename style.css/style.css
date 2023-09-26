@@ -59,3 +59,38 @@ h1{
     width: 100%;
     margin: 10px 0;
 }
+
+main{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.task-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.task-title::before {
+    content: "\25BE";
+    margin-right: 5px;
+    }
+
+.did{
+    margin-top: 10px;
+}
+
+.did::before{
+    content: '\2713';
+    margin-right: 10px;
+    border: 1px solid rgb(40, 202, 97);
+    color: rgb(40, 202, 97);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
